@@ -1,0 +1,12 @@
+.home-page-container-div {
+    background-color: grey;
+    height: 100vh;
+    color: white;
+    .accordion-container-div {
+        width: 250px;
+        padding: 10px;
+        .li-styling {
+            text-align: left;
+        }
+    }
+}
