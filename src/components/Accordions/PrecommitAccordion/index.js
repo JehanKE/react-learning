@@ -17,13 +17,11 @@ const PrecommitAccordion = () => {
                     <Typography>Pre-Commit checks</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography sx={{textAlign:'left'}}>
-                        <div>
+                    <div className='pc-details-div'>
                             Husky - allows you to run scripts on commit<br/><br/>
                             Lint - checks code for small erros<br/><br/>
                             Prettier - formats code for readability
-                        </div>
-                    </Typography>
+                    </div>
                 </AccordionDetails>
             </Accordion>
         </div>

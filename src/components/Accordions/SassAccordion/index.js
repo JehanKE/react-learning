@@ -17,10 +17,10 @@ const SassAccordion = () => {
                     <Typography>Sass</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography sx={{textAlign:'left'}}>
+                    <div className='sass-details-div'>
                         <div>Advanced version of css</div>
                         <a href='https://www.w3schools.com/react/react_sass_styling.asp' target='_blank' rel='noreferrer'>Installation</a>
-                    </Typography>
+                    </div>
                 </AccordionDetails>
             </Accordion>
         </div>

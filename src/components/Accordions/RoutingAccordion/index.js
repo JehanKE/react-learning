@@ -4,6 +4,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Link } from "react-router-dom";
+
 
 const RoutingAccordion = () => {
     return (
@@ -17,10 +19,15 @@ const RoutingAccordion = () => {
                     <Typography>Routing</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography sx={{textAlign:'left'}}>
-                        {/* <div>Advanced version of css</div>
-                        <a href='https://www.w3schools.com/react/react_sass_styling.asp' target='_blank' rel='noreferrer'>Installation</a> */}
-                    </Typography>
+                    <div className='routing-container-div'>
+                        <div>Moving from one webpage to another</div>
+                        <a href='https://reactrouter.com/en/v6.3.0/getting-started/installation' target='_blank' rel='noreferrer'>Installation</a>
+                        <div>
+                            <br/>Example:<br/>
+                            <Link to='/page1'>Go to Page 1</Link><br/>
+                            <Link to='/page2'>Go to Page 2</Link>
+                        </div>
+                    </div>
                 </AccordionDetails>
             </Accordion>
         </div>

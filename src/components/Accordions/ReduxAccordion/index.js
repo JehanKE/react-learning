@@ -28,7 +28,7 @@ const ReduxAccordion = () => {
                     <Typography>Redux</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography sx={{textAlign:'left'}}>
+                    <div className='redux-details-div'>
                         <div>
                             Used for state management
                         </div>
@@ -45,7 +45,7 @@ const ReduxAccordion = () => {
                             Current Age: {userAge}<br/>
                             <button onClick={handleClick}>Change Details</button>
                         </div>
-                    </Typography>
+                    </div>
                 </AccordionDetails>
             </Accordion>
         </div>
