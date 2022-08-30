@@ -63,6 +63,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+Repository has been deployed as a GitHub page.
+In order to access it check:
+https://jehanke.github.io/react-learning/
+To deploy, merge up to date code to master branch and run:
+npm run deploy
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
