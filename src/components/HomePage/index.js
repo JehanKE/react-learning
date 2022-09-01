@@ -4,6 +4,9 @@ import SassAccordion from '../Accordions/SassAccordion';
 import ReduxAccordion from '../Accordions/ReduxAccordion';
 import PrecommitAccordion from '../Accordions/PrecommitAccordion';
 import RoutingAccordion from '../Accordions/RoutingAccordion';
+import RestCalls from '../Accordions/RestCalls';
+import GraphqlCalls from '../Accordions/GraphqlCalls';
+import LayoutAccordion from '../Accordions/LayoutAccordion';
 
 const HomePage = () => {
 
@@ -13,6 +16,9 @@ const HomePage = () => {
             <ReduxAccordion/>
             <SassAccordion/>
             <RoutingAccordion/>
+            <LayoutAccordion/>
+            <RestCalls/>
+            <GraphqlCalls/>
         </div>
     )
 }
