@@ -7,6 +7,7 @@ import RoutingAccordion from '../Accordions/RoutingAccordion';
 import RestCalls from '../Accordions/RestCalls';
 import GraphqlCalls from '../Accordions/GraphqlCalls';
 import LayoutAccordion from '../Accordions/LayoutAccordion';
+import CypressTest from '../Accordions/CypressTest';
 
 const HomePage = () => {
 
@@ -19,6 +20,7 @@ const HomePage = () => {
             <LayoutAccordion/>
             <RestCalls/>
             <GraphqlCalls/>
+            <CypressTest/>
         </div>
     )
 }
