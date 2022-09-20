@@ -1,7 +1,7 @@
 {
   "name": "react-learning",
   "version": "0.1.0",
-  "homepage": "https://jehanke.github.io/react-learning/",
+  "homepage": "https://jehanke.github.io/",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.6.9",
@@ -51,6 +51,8 @@
   },
   "devDependencies": {
     "@redux-devtools/core": "^3.13.1",
+    "@testing-library/cypress": "^8.0.3",
+    "cypress": "^10.8.0",
     "gh-pages": "^4.0.0",
     "redux-devtools-extension": "^2.13.9"
   }
